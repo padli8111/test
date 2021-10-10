@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Halaman Login</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <body background="berubah.jpg">
+    <nav id="home">
+      <h1>MUH.FADLI</h1>
+      <ul>
+        <li class="active"><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+    <div class="box">
+      <h1>Welcome</h1>
+      <p>
+        Hallo semua apa kabar perkenalkan nama saya MUH.FADLI saya membuat website ini cuman ingin belajar dan contact namenya lagi error mohon di maklumi,jika kalian ingin join silahkan
+      </p>
+      <div class="button">
+        <button>Join</button>
+        <button>learn more</button>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <h1>about</h1>
+      <p>
+        Website adalah kumpulan halaman web yang dapat diakses publik dan saling terkait yang berbagi satu nama domain,... Halaman-halaman dalam sebuah website biasanya merupakan campuran teks dan media lainnya. Meskipun demikian, tidak ada aturan yang mengatur bentuk website.
+      </p>
+    </div>
+    <div class="contact" id="contact">
+      <h1>Contact</h1>
+      <p>
+        Nama:
+      </p>
+      <input type="text" id="Nama">
+      <br>
+      <p>
+        Umur:
+      </p>
+      <input type="text" id="Umur">
+      <p>
+        Pesan:
+      </p>
+      <textarea rows="5" cols="25" id=Pesan></textarea>
+      <br></br>
+    <button id="Submit">Submit</button>
+
+  </div>
+  <footer>
+    copyright by MUH.FADLI
+  </footer>
+
+  <script type="text/javascript" charset="utf-8">
+    var Submit = document.getElementById("Submit");
+    Submit.onclick = function () {
+      var nama = document.getElementById("Nama").value;
+      var Umur = document.getElementById("Umur").value;
+      var Pesan = document.getElementById("Pesan").value;
+      alert(Nama + Umur + Pesan);
+    }
+  </script>
+</body>
+</html>

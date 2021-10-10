@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+nav:before{
+  position: absolute;
+  content: "";
+  width: 99%;
+  height: 40px;
+  background-color: aqua;
+  opacity: .4;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+  transform: translateY(-30px);
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+nav h1 {
+  line-height: 40px;
+  z-index: 1;
+  color: Lime;
+  margin-left: 10px;
+  text-shadow: 0px 2px 2px height;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li a:hover {
+  background-color: blue;
+  color: white;
+  transform-style: .5s;
+}
+.active {
+  background: blue;
+  color: white;
+}
+.box {
+  margin-top: 100px;
+  width:99%;
+  height: 40vh;
+  border: 1px solid #fff;
+}
+.box h1 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box p {
+  text-align: center;
+  color: #fff;
+}
+.button {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.button button:nth-child(1) {
+  border: none;
+  background: none;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  margin-right: 20px;
+  transition: .5s;
+} 
+.button button:nth-child(2) {
+  border: none;
+  background: none;
+  transition: .5s;
+  width: 120px;
+  height: 35px;
+  border: 1px solid #fff;
+  background-color: orange;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+}
+.button button:hover {
+  box-shadow: 0px 0px 3px 3px aqua;
+  transform: scale(1.1);
+  transition: .5s;
+}
+.about {
+  margin-top: 50px;
+}
+.about h1 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-shadow: 0px 2px 2px blue;
+}
+.about p {
+  text-align: center;
+  color: #fff;
+}
+.contact {
+  margin-top: 50px;
+}
+.contact h1 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-shadow: 0px 2px 2px blue;
+}
+.contact p {
+  color: #fff;
+}
+footer {
+  margin-top: 20%;
+  background-color: blue;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
